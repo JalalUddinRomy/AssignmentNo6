@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget{
                children: [
                  Padding(
                    padding: const EdgeInsets.all(8.0),
-                   child: Scrollbar(child: Text("Welcome To My Photo Gallary!",
+                   child: SingleChildScrollView(child: Text("Welcome To My Photo Gallary!",
                      style:TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),),
                  ),
              Padding(
